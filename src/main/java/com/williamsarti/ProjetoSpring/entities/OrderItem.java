@@ -39,7 +39,7 @@ public class OrderItem implements Serializable {
 		return id.getOrder();
 	}
 	
-	
+	@JsonIgnore
 	public void setOrder(Order order) {
 		id.setOrder(order);
 	}
